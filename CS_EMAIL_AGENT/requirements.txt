@@ -1,0 +1,25 @@
+# Core ML/NLP
+torch>=2.2.0
+torchvision>=0.17.0
+torchaudio>=2.2.0
+transformers==4.44.2
+datasets>=2.20.0
+sentence-transformers>=3.0.1
+
+# LangChain ecosystem
+langchain==0.2.16
+langchain-community==0.2.16
+langgraph==0.0.67
+
+# Vector DB
+faiss-cpu>=1.7.4   # use faiss-gpu if you want GPU acceleration
+
+# Utilities
+pydantic==2.8.2
+numpy>=1.26.0
+pandas>=2.2.0
+scikit-learn>=1.5.0
+
+# Optional but useful
+python-dotenv>=1.0.1    # for managing API keys/config
+rich>=13.7.1            # pretty console logs
