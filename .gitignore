@@ -222,7 +222,6 @@ __pycache__/
 .huggingface/
 
 # Model outputs/artifacts
-outputs/
 *.pt
 *.bin
 *.ckpt
