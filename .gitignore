@@ -213,3 +213,19 @@ __pycache__/
 .env
 .ipynb_checkpoints/
 data/
+
+
+.venv/
+__pycache__/
+*.pyc
+.cache/
+.huggingface/
+
+# Model outputs/artifacts
+outputs/
+*.pt
+*.bin
+*.ckpt
+*.onnx
+*.model
+*.pkl
